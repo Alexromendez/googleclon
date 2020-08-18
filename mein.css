@@ -1,0 +1,155 @@
+/*Iram Alexander Roquel Medez*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Georgia, Helvetica, sans-serif;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  header {
+    width: 100%;
+    height: 60px;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header nav .nav-derecho-seccion{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav .nav-derecho-seccion a{
+    margin-right: 10px;
+    color: #000000;
+  }
+  
+  nav .nav-derecho-seccion .icono-menu {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: 25px; 
+    width: 40px;
+  }
+  
+  nav .nav-derecho-seccion img {
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+  main
+  {
+    margin-top: 150px;
+    text-align: center;
+  }
+  main .seccion-principal{
+    margin-bottom: 15px;
+  }
+  main .seccion-input{
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  }
+  main .contenedor-input {
+    border-radius: 100px;
+    border: 1px solid #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+  }
+  main .contenedor-input:hover{
+    box-shadow: 0  1px 6px #20212447;
+    border-color: #dfe1e500;
+  }
+  main .contenedor-input input{
+    width: 487px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 8px;
+  }
+
+  main .contenedor-input .icono-lupa {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+  }
+
+  main .contenedor-input .icono-micro {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+  }
+
+  main .main-botones {
+    width: 550px;
+    margin: 0 auto;
+  }
+  main .main-botones div{
+    display: inline-block;
+    padding-right: 15px;
+  }
+  main .main-botones div button{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+  }
+
+  main .main-botones div button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, .2);
+  }
+  
+  footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+  }
+  
+  footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+  }
+  
+  footer .footer-izquierda {
+    justify-self: left;
+  }
+  
+  footer .footer-derecha {
+    justify-self: right;
+  }
+  
+  footer ul li a {
+    margin: 10px;
+    color: #5f6368;
+  }
